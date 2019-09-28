@@ -1,0 +1,52 @@
+<script>
+// Open the balmCard
+function openbalmCard() {
+  document.getElementById("balmCard").style.display = "block";
+}
+
+function closebalmCard() {
+  document.getElementById("balmCard").style.display = "none";
+}
+  
+// Open the oilCard
+function openoilCard() {
+  document.getElementById("oilCard").style.display = "block";
+}  
+function closeoilCard() {
+  document.getElementById("oilCard").style.display = "none";
+}
+    // Open the capsCard
+function opencapsCard() {
+  document.getElementById("capsCard").style.display = "block";
+}
+function closecapsCard() {
+  document.getElementById("capsCard").style.display = "none";
+}    
+  
+  // Open the oilCardsub
+function openoilCardsub() {
+  document.getElementById("oilCardsub").style.display = "block";
+}
+function closeoilCardsub() {
+  document.getElementById("oilCardsub").style.display = "none";
+}  
+ 
+  // Open the capsCardsub
+function opencapsCardsub() {
+  document.getElementById("capsCardsub").style.display = "block";
+}
+function closecapsCardsub() {
+  document.getElementById("capsCardsub").style.display = "none";
+}  
+  
+  
+  
+</script>
+
+<div id="balmCard" class="modalr" onclick="closebalmCard()" style="display: block;">
+  <div class="modal-contentr">
+    <div class="myslidesr">
+<img src="https://cdn.shopify.com/s/files/1/0049/3443/4888/files/balm_card.png">
+    </div>
+  </div>
+</div>
